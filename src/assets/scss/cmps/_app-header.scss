@@ -1,0 +1,27 @@
+header{
+    background-color: rgb(193, 157, 228);
+    height: 8vh;
+    display: flex;
+    gap: 1em;
+
+    :first-child{
+        margin: 2em;
+        align-self: center;
+       font-weight: 800;
+       font-size: 1.6em;
+        color:rgb(106, 11, 106) ;      
+    }
+
+    :nth-child(2){
+          margin-left: auto;
+    align-self: center;
+    >*{
+        font-size: 1.2em;
+        margin-right: 2em;
+        color: rgb(106, 11, 106);
+        text-decoration: none;
+        font-weight: 600;
+    }
+    }
+}
+

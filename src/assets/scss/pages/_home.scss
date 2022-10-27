@@ -1,0 +1,9 @@
+.home-container{
+    >* {
+        margin: 3em;
+    }
+
+    >:first-child{
+        font-size: 1.2em;
+    }
+}
